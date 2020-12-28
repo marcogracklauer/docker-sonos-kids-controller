@@ -1,0 +1,13 @@
+{
+    "node-sonos-http-api": {
+        "server": "192.168.xxx.xxx",
+        "port": "5005",
+        "rooms": [
+            "Wohnzimmer"
+        ]
+    },
+    "spotify": {
+        "clientId": "",
+        "clientSecret": ""
+    }
+}

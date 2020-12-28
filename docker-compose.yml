@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sonos-kids-controller:
+    image: sonos-kids-controller:latest
+    container_name: sonos-kids-controller
+    restart: unless-stopped
+    network_mode: host
+    ports:
+      - "8200:8200"
+    volumes:
+      - /home/pi/sonos-kids-controller:/sonos-kids-controller/server/config
